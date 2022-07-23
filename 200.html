@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="assets/style.css" />
+    <title>Example</title>
+  </head>
+  <h1>Your first header</h1>
+  <h2>Your seccond header</h2>
+  <body>
+    <p>A body</p>
+  </body>
+  <button
+    type="button"
+    onclick="document.getElementById('demo').innerHTML = Date()"
+  >
+    Click me to display Date and Time.
+  </button>
+  <p id="demo">This is where the date will be displayed</p>
+  <p id="anotherDemo">This text will never be displayed because it is overwritten by scripts.js</p>
+  <script src="assets/scripts.js"></script>
+</html>
