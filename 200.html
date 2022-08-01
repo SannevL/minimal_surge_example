@@ -4,18 +4,32 @@
     <link rel="stylesheet" href="assets/style.css" />
     <title>Example</title>
   </head>
+  
+  <body>
+
   <h1>Your first header</h1>
   <h2>Your seccond header</h2>
-  <body>
+  
+  <div class="centerText">
     <p>A body</p>
+  </div>
+  
   </body>
-  <button
+
+  <!-- <div class="container"> -->
+  <div class="center">
+  <button class="button1"
     type="button"
     onclick="document.getElementById('demo').innerHTML = Date()"
   >
     Click me to display Date and Time.
   </button>
+  <div class="centerText">
   <p id="demo">This is where the date will be displayed</p>
+</div>
+</div>
+
+  
   <p id="anotherDemo">This text will never be displayed because it is overwritten by scripts.js</p>
   <script src="assets/scripts.js"></script>
 </html>
